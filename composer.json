@@ -1,0 +1,25 @@
+{
+    "name": "bach-vendor/bach-package",
+    "description": "Test create package",
+    "authors": [
+        {
+            "name": "bach",
+            "email": "abc@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BachVendor\\BachPackage\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BachVendor\\BachPackage\\Providers\\BachServiceProvider"
+            ]
+        }
+    },
+}
